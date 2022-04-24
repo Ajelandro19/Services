@@ -1,4 +1,3 @@
-const { TestWatcher } = require('jest')
 const UserService = require('./../app/services/UserService')
 
 describe('Test for UserService',()=>{
