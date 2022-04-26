@@ -8,6 +8,9 @@ class UserService{
         const userInfoInList=[user.id, user.username,user.name, "Sin bio"]
         return userInfoInList
     }
+    static updateUserUsername (user,text){
+        return user.username=text
+    }
 }
 
 module.exports =UserService
